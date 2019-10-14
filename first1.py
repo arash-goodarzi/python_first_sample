@@ -8,9 +8,11 @@ print(sys.version)
 print(sys.executable)
 print("Hi")
 
-# r = requests.get("http://www.google.com")
+r = requests.get("http://www.google.com")
 
-# print(r.status_code)
+print(r.status_code)
+
+
 def abc():
     i = 2 + 2
     print("ggg")
@@ -18,4 +20,7 @@ def abc():
 
 def bcd():
     print("ttt")
+
+
+# //https://www.youtube.com/watch?v=-nh9rCzPJ20
 
